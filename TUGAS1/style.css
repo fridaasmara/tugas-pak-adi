@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .nav {
+    position: fixed;
+    background-color: aqua;
+    height: 180vh;
+    width: 20%;
+}
+
+.container .main-nav {
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+}
+
+.main-nav .menu {
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    height: 80px;
+}
+
+.main-nav .content {
+    height: 1550px;
+    background-color: gray;
+}
+
+.container .nav .profile {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container .nav .profile img {
+    display: block;
+    width: 100px;
+    height: 110px;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+.container .nav ul {
+    top: 400px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container .nav ul li {
+    margin-top: 40px;
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid black;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu .welcome {
+    color: white;
+    float: left;
+    margin-left: 300px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.menu .button {
+    color: black;
+    float: right;
+    margin-left: 500px;
+    margin-top: 17px;
+    margin-right: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    top: 200px;
+}
+
+.content .artikel {
+    margin-top: 90px;
+    margin-left: 285px;
+}
+
+.content .artikel p {
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.content .artikel .judul1 {
+    background-color: cadetblue;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 60px;
+    position: sticky;
+    top: 80px;
+}
+
+.content .artikel .judul2 {
+    background-color: cadetblue;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 60px;
+    position: sticky;
+    top: 140px;
+}
+
+.content .artikel .judul3 {
+    background-color: cadetblue;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-top: 20px;
+    height: 60px;
+    position: sticky;
+    bottom: 0px;
+}
